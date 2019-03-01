@@ -1,0 +1,34 @@
+.project {
+    margin-top: 48px;
+}
+
+.project h3 {
+}
+
+.project .divide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project .image {
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 32px;
+    object-fit: contain !important;
+    object-position: center center !important;
+    border: solid 1px #ddd;
+}
+
+.project img {
+    object-fit: contain !important;
+    object-position: top center !important;
+}
+
+.project .divide > table {
+    flex: 1 1 0;
+}
+
+.project td {
+    vertical-align: top;
+}
