@@ -1,0 +1,21 @@
+.title {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 32px;
+}
+
+.title * {
+    display: inline-block;
+}
+
+.projects {
+    margin-top: 48px;
+    list-style-type: none;
+}
+
+.projects > li {
+    margin-top: 32px;
+}
+
+.section {
+    margin-bottom: 48px;
+}

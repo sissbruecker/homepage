@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import ExtLink from '../components/extlink';
 import styles from './portfolio.module.css';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
@@ -52,17 +53,17 @@ const Portfolio = () => {
             </p>
 
             <section className={styles.project}>
-                <h3><a target="_blank" href='https://archer.graphics'>Archer</a></h3>
+                <h3><ExtLink href='https://archer.graphics'>Archer</ExtLink></h3>
                 <div className={styles.divide}>
-                    <a target="_blank" href='https://archer.graphics'>
+                    <ExtLink href='https://archer.graphics'>
                         <Img fluid={data.archer.childImageSharp.fluid} className={styles.image}/>
-                    </a>
+                    </ExtLink>
                     <table>
                         <tbody>
                         <tr>
                             <td><b>Type</b></td>
-                            <td>Product development while employed at <a target="_blank"
-                                                                         href='https://byteagenten.de'>byteAgenten</a>
+                            <td>Product development while employed at <ExtLink
+                                href='https://byteagenten.de'>byteAgenten</ExtLink>
                             </td>
                         </tr>
                         <tr>
@@ -81,14 +82,14 @@ const Portfolio = () => {
                         <tr>
                             <td><b>Links</b></td>
                             <td>
-                                <a target="_blank" href='https://archer.graphics'>Website</a>
+                                <ExtLink href='https://archer.graphics'>Website</ExtLink>
                                 <br/>
-                                <a target="_blank"
-                                   href='https://itunes.apple.com/de/app/archer-editor-pro/id1332609371'>Mac App
-                                    Store</a>
+                                <ExtLink
+                                    href='https://itunes.apple.com/de/app/archer-editor-pro/id1332609371'>Mac App
+                                    Store</ExtLink>
                                 <br/>
-                                <a target="_blank" href='https://github.com/byteAgenten/archer-runtime'>Github
-                                    (Runtime)</a>
+                                <ExtLink href='https://github.com/byteAgenten/archer-runtime'>Github
+                                    (Runtime)</ExtLink>
                             </td>
                         </tr>
                         </tbody>
@@ -97,49 +98,11 @@ const Portfolio = () => {
             </section>
 
             <section className={styles.project}>
-                <h3><a target="_blank" href='https://blaue-tonne.events/'>Blaue Tonne Nürnberg</a></h3>
+                <h3><ExtLink href='https://routineer.one/'>Routineer</ExtLink></h3>
                 <div className={styles.divide}>
-                    <a target="_blank" href='https://blaue-tonne.events/'>
-                        <Img fluid={data.blauetonne.childImageSharp.fluid} className={styles.image}/>
-                    </a>
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><b>Type</b></td>
-                            <td>Side project</td>
-                        </tr>
-                        <tr>
-                            <td><b>Description</b></td>
-                            <td>
-                                Website that provides calendars for waste paper disposal for the city where I live in as
-                                .ical and .pdf.
-                                A Python scraper collects the data from the official web page. Then some scripts
-                                automatically generate a static website from that data.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><b>Tech</b></td>
-                            <td>Python, Scrapy, React, Preact</td>
-                        </tr>
-                        <tr>
-                            <td><b>Links</b></td>
-                            <td>
-                                <a target="_blank" href='https://blaue-tonne.events/'>Website</a>
-                                <br/>
-                                <a target="_blank" href='https://github.com/sissbruecker/blaue-tonne-nbg'>Github</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
-            <section className={styles.project}>
-                <h3><a target="_blank" href='https://routineer.one/'>Routineer</a></h3>
-                <div className={styles.divide}>
-                    <a target="_blank" href='https://routineer.one/'>
+                    <ExtLink href='https://routineer.one/'>
                         <Img fluid={data.routineer.childImageSharp.fluid} className={styles.image}/>
-                    </a>
+                    </ExtLink>
                     <table>
                         <tbody>
                         <tr>
@@ -157,14 +120,52 @@ const Portfolio = () => {
                         </tr>
                         <tr>
                             <td><b>Tech</b></td>
-                            <td>React, PWA, IndexedDB</td>
+                            <td>React, Typescript, PWA, IndexedDB</td>
                         </tr>
                         <tr>
                             <td><b>Links</b></td>
                             <td>
-                                <a target="_blank" href='https://routineer.one/'>Website</a>
+                                <ExtLink href='https://routineer.one/'>Website</ExtLink>
                                 <br/>
-                                <a target="_blank" href='https://github.com/sissbruecker/routineer'>Github</a>
+                                <ExtLink href='https://github.com/sissbruecker/routineer'>Github</ExtLink>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section className={styles.project}>
+                <h3><ExtLink href='https://blaue-tonne.events/'>Blaue Tonne Nürnberg</ExtLink></h3>
+                <div className={styles.divide}>
+                    <ExtLink href='https://blaue-tonne.events/'>
+                        <Img fluid={data.blauetonne.childImageSharp.fluid} className={styles.image}/>
+                    </ExtLink>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td><b>Type</b></td>
+                            <td>Side project</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>
+                                Website that provides calendars for waste paper disposal for the city where I live in as
+                                .ical and .pdf.
+                                A Python scraper collects the data from the official web page. Then some scripts
+                                automatically generate a static website from that data.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Tech</b></td>
+                            <td>Python, Scrapy, Preact</td>
+                        </tr>
+                        <tr>
+                            <td><b>Links</b></td>
+                            <td>
+                                <ExtLink href='https://blaue-tonne.events/'>Website</ExtLink>
+                                <br/>
+                                <ExtLink href='https://github.com/sissbruecker/blaue-tonne-nbg'>Github</ExtLink>
                             </td>
                         </tr>
                         </tbody>
@@ -174,14 +175,14 @@ const Portfolio = () => {
 
             <section className={styles.project}>
                 <h3>
-                    <a target="_blank" href='https://github.com/sissbruecker/freckle-overtime'>
+                    <ExtLink href='https://github.com/sissbruecker/freckle-overtime'>
                         Overtime Calculator
-                    </a>
+                    </ExtLink>
                 </h3>
                 <div className={styles.divide}>
-                    <a target="_blank" href='https://github.com/sissbruecker/freckle-overtime'>
+                    <ExtLink href='https://github.com/sissbruecker/freckle-overtime'>
                         <Img fluid={data.freckle.childImageSharp.fluid} className={styles.image}/>
-                    </a>
+                    </ExtLink>
                     <table>
                         <tbody>
                         <tr>
@@ -192,7 +193,8 @@ const Portfolio = () => {
                             <td><b>Description</b></td>
                             <td>
                                 Command line tool that calculates overtime.
-                                It fetches logged time entries from letfreckle.com, and then calculates the weekly and total overtime.
+                                It fetches logged time entries from letfreckle.com, and then calculates the weekly and
+                                total overtime.
                             </td>
                         </tr>
                         <tr>
@@ -202,7 +204,7 @@ const Portfolio = () => {
                         <tr>
                             <td><b>Links</b></td>
                             <td>
-                                <a target="_blank" href='https://github.com/sissbruecker/freckle-overtime'>Github</a>
+                                <ExtLink href='https://github.com/sissbruecker/freckle-overtime'>Github</ExtLink>
                             </td>
                         </tr>
                         </tbody>

@@ -10,7 +10,7 @@ const Header = () => (
         </Link>
 
         <nav className={styles.nav}>
-            <Link to='/'>Résumé</Link>
+            <Link to='/resume'>Résumé</Link>
             <Link to='/portfolio'>Portfolio</Link>
         </nav>
     </header>
