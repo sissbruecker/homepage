@@ -4,12 +4,17 @@
     justify-content: space-between;
     align-items: flex-end;
 
-    border-bottom: solid 1px #aaa;
-    margin-top: 24px;
+    /*border-bottom: solid 1px #aaa;*/
+    margin-top: 0;
     margin-bottom: 48px;
+    padding-top: 24px;
     padding-bottom: 12px;
 }
 
 .nav > *:not(:first-child) {
     margin-left: 24px;
+}
+
+a.plain {
+    /*color: inherit;*/
 }

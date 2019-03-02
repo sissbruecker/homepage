@@ -1,0 +1,13 @@
+.subtitle {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+
+.subtitle * {
+    display: inline-block;
+}
+
+.subtitle .label {
+    margin-left: 32px;
+}

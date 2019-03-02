@@ -5,6 +5,7 @@ import ExtLink from '../components/extlink';
 import styles from './portfolio.module.css';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
+import SubTitle from '../components/subtitle';
 
 const PortfolioPage = () => {
 
@@ -44,7 +45,7 @@ const PortfolioPage = () => {
     return (
         <Layout>
             <SEO title="Portfolio"/>
-            <h2>Some of the things that I have worked on.</h2>
+            <SubTitle title='Some of the things that I have worked on.'/>
             <p>
                 Most of the projects I have worked on were contract work for customers of my employer, thus I can not
                 show them here.
@@ -53,7 +54,7 @@ const PortfolioPage = () => {
             </p>
 
             <section className={styles.project}>
-                <h3><ExtLink href='https://archer.graphics'>Archer</ExtLink></h3>
+                <h4>Archer</h4>
                 <div className={styles.divide}>
                     <ExtLink href='https://archer.graphics'>
                         <Img fluid={data.archer.childImageSharp.fluid} className={styles.image}/>
@@ -98,7 +99,7 @@ const PortfolioPage = () => {
             </section>
 
             <section className={styles.project}>
-                <h3><ExtLink href='https://routineer.one/'>Routineer</ExtLink></h3>
+                <h4>Routineer</h4>
                 <div className={styles.divide}>
                     <ExtLink href='https://routineer.one/'>
                         <Img fluid={data.routineer.childImageSharp.fluid} className={styles.image}/>
@@ -136,7 +137,7 @@ const PortfolioPage = () => {
             </section>
 
             <section className={styles.project}>
-                <h3><ExtLink href='https://blaue-tonne.events/'>Blaue Tonne Nürnberg</ExtLink></h3>
+                <h4>Blaue Tonne Nürnberg</h4>
                 <div className={styles.divide}>
                     <ExtLink href='https://blaue-tonne.events/'>
                         <Img fluid={data.blauetonne.childImageSharp.fluid} className={styles.image}/>
@@ -174,11 +175,7 @@ const PortfolioPage = () => {
             </section>
 
             <section className={styles.project}>
-                <h3>
-                    <ExtLink href='https://github.com/sissbruecker/freckle-overtime'>
-                        Overtime Calculator
-                    </ExtLink>
-                </h3>
+                <h4>Overtime Calculator</h4>
                 <div className={styles.divide}>
                     <ExtLink href='https://github.com/sissbruecker/freckle-overtime'>
                         <Img fluid={data.freckle.childImageSharp.fluid} className={styles.image}/>

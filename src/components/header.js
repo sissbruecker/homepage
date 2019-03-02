@@ -5,7 +5,7 @@ import styles from './header.module.css';
 
 const Header = () => (
     <header className={cn('container', styles.header)}>
-        <Link to='/'>
+        <Link to='/' className={styles.plain}>
             <h1>Sascha Ißbrücker</h1>
         </Link>
 

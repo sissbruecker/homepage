@@ -28,12 +28,16 @@ const Layout = ({ children }) => {
     return (
         <>
             <Header siteTitle={data.site.siteMetadata.title}/>
-            <div className={'container'}>
-                <main>{children}</main>
-                <footer>
+            <main>
+                <div className={'container'}>
+                    {children}
+                </div>
+            </main>
+            <footer>
+                <div className={'container'}>
                     © {new Date().getFullYear()}, Sascha Ißbrücker
-                </footer>
-            </div>
+                </div>
+            </footer>
         </>
     )
 };

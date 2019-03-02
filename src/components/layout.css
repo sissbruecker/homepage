@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
@@ -9,4 +15,35 @@ footer {
 
 td {
     vertical-align: top;
+}
+
+div#___gatsby {
+    min-height: 100%;
+    display: flex;
+}
+div#___gatsby > div {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+/* Theme */
+body {
+    background: #f5f5f5;
+}
+
+a {
+    color: #2f89fc;
+}
+
+td {
+    border-color: #ccc;
 }

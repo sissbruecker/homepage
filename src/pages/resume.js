@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Project from '../components/project';
+import SubTitle from '../components/subtitle';
 import styles from './resume.module.css';
 
 const ResumePage = () => (
@@ -9,9 +10,7 @@ const ResumePage = () => (
         <SEO title="Résumé"/>
 
         <section id='education' className={styles.section}>
-            <div className={styles.title}>
-                <h3>Education</h3>
-            </div>
+            <SubTitle title='Education'/>
             <ul>
                 <li>Graduate engineer for information and communication technologies,
                     University of Cooperative Education Eisenach,
@@ -22,9 +21,7 @@ const ResumePage = () => (
         </section>
 
         <section id='employments' className={styles.section}>
-            <div className={styles.title}>
-                <h3>Full-stack developer</h3>, byteAgenten GmbH, 2009 - present
-            </div>
+            <SubTitle title='Full-stack developer' label='byteAgenten GmbH, 2009 - present'/>
             <p>
                 These are some noteworthy projects that I have worked on in over 10 years of employment at byteAgenten
                 GmbH.
