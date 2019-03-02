@@ -28,7 +28,3 @@
 .project .divide > table {
     flex: 1 1 0;
 }
-
-.project td {
-    vertical-align: top;
-}

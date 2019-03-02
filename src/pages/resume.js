@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import Project from '../components/project';
 import styles from './resume.module.css';
 
-const IndexPage = () => (
+const ResumePage = () => (
     <Layout>
         <SEO title="Résumé"/>
 
@@ -125,4 +125,4 @@ const IndexPage = () => (
     </Layout>
 );
 
-export default IndexPage;
+export default ResumePage;

@@ -1,0 +1,13 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact table {
+    width: auto;
+}
+
+.contact table td {
+    border: none;
+}

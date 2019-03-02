@@ -12,6 +12,7 @@ const Header = () => (
         <nav className={styles.nav}>
             <Link to='/resume'>Résumé</Link>
             <Link to='/portfolio'>Portfolio</Link>
+            <Link to='/contact'>Contact</Link>
         </nav>
     </header>
 );

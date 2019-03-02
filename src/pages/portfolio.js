@@ -6,7 +6,7 @@ import styles from './portfolio.module.css';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const Portfolio = () => {
+const PortfolioPage = () => {
 
     const data = useStaticQuery(graphql`
       query {
@@ -215,4 +215,4 @@ const Portfolio = () => {
     )
 };
 
-export default Portfolio;
+export default PortfolioPage;
