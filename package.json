@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "sissbruecker.de",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "This is a website for showcasing my professional resume and portfolio.",
+  "version": "1.0.0",
+  "author": "Sascha Ißbrücker <sascha.issbruecker@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.1.19",
@@ -21,26 +21,23 @@
     "react-helmet": "^5.2.0",
     "skeleton-css": "^2.0.4"
   },
-  "devDependencies": {
-    "prettier": "^1.16.4"
-  },
+  "devDependencies": {},
   "keywords": [
-    "gatsby"
+    "resume",
+    "portfolio"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/sissbruecker/homepage"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/sissbruecker/homepage/issues"
   }
 }
