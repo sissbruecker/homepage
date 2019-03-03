@@ -1,6 +1,7 @@
 .projects {
     margin-top: 48px;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .projects > li {

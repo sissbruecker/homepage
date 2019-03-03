@@ -8,6 +8,10 @@
     display: inline-block;
 }
 
-.subtitle .label {
-    margin-left: 32px;
+.subtitle h3 {
+    margin-right: 32px;
+}
+
+.subtitle span {
+    margin-top: 8px;
 }

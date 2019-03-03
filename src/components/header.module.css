@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
 
     /*border-bottom: solid 1px #aaa;*/
     margin-top: 0;
@@ -11,10 +12,15 @@
     padding-bottom: 12px;
 }
 
-.nav > *:not(:first-child) {
-    margin-left: 24px;
+.header h1 {
+    margin-right: 32px;
+    color: #3d424b;
 }
 
-a.plain {
-    /*color: inherit;*/
+.header nav {
+    margin-top: 16px;
+}
+
+.nav > *:not(:first-child) {
+    margin-left: 24px;
 }

@@ -2,22 +2,27 @@
     margin-top: 48px;
 }
 
-.project h3 {
-}
-
 .project .divide {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    margin-right: -32px;
+
+    position: relative;
 }
 
-.project .image {
-    flex: 0 0 auto;
-    width: 400px;
+.project .divide > a {
+    flex: 1 1 0;
+    min-width: 350px;
     margin-right: 32px;
-    object-fit: contain !important;
-    object-position: center center !important;
     border: solid 1px #ddd;
+}
+
+.project .divide > table {
+    flex: 1 1 0;
+    min-width: 350px;
+    margin-right: 32px;
 }
 
 .project img {
@@ -25,6 +30,3 @@
     object-position: top center !important;
 }
 
-.project .divide > table {
-    flex: 1 1 0;
-}

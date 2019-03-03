@@ -1,10 +1,14 @@
 import React from 'react';
+import styles from './project.module.css';
 
-const Project = ({title, customer, time, skills, children}) => {
+const Project = ({ title, customer, time, skills, children }) => {
 
     return (
         <li>
-            <strong dangerouslySetInnerHTML={{__html: title}}/> - {customer} - {time}
+            <div className={styles.title}>
+                <strong dangerouslySetInnerHTML={{ __html: title }}/>
+                <span>{customer} - {time}</span>
+            </div>
             <ul>
                 {children}
             </ul>
