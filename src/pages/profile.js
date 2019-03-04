@@ -64,10 +64,9 @@ const ProfilePage = () => (
                 <SubTitle title='How would I describe my professional self?'/>
                 <ul>
                     <li>able to work reliably and independently</li>
-                    <li>logical thinking</li>
                     <li>critical thinking, validation of requirements and decisions</li>
-                    <li>user-oriented thinking beyond technical aspects</li>
-                    <li>focus on quality, usability, performance</li>
+                    <li>logical thinking</li>
+                    <li>thinking beyond technical aspects with focus on quality, usability, performance</li>
                     <li>can find practical solutions in short amount of time</li>
                     <li>good didactic skills</li>
                     <li>curious and interested in new technologies and developments in software engineering</li>
