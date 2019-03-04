@@ -1,8 +1,8 @@
 import React from 'react';
-import ResumePage from './resume';
+import ProfilePage from './profile';
 
 const IndexPage = () => (
-  <ResumePage/>
+  <ProfilePage/>
 );
 
 export default IndexPage

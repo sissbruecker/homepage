@@ -27,7 +27,8 @@ const ResumePage = () => (
                 GmbH.
                 It's hard to find an appropriate title here because I have done pretty much everything from project
                 coordination, requirements engineering, architecture, implementation, backend, frontend, testing,
-                database administration, infrastructure, Dev-Ops, team lead, consulting, coaching, training and writing.
+                database administration, infrastructure, Dev-Ops, team lead, consulting, mentoring, training and
+                writing.
             </p>
 
             <ul className={styles.projects}>
