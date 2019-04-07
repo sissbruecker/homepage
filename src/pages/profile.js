@@ -13,8 +13,8 @@ const ProfilePage = () => (
             <section>
                 <SubTitle title='Experience'/>
                 <ul>
-                    <li><strong>Software Developer</strong> with more than 10 years of contract work and product
-                        development
+                    <li><strong>Software Developer</strong> with more than 10 years of experience in contract work and product
+                        development, with focus on web applications and technologies
                     </li>
                     <li>more dramatic: Senior Software Engineer, Full-stack Web Developer</li>
                     <li>contract work for customers such as Daimler, Siemens Healthcare, Siemens Power Generation,
@@ -37,15 +37,15 @@ const ProfilePage = () => (
                     <h4>Backend</h4>
                     <ul>
                         <li>Java / Java EE - 10 years</li>
-                        <li>node.js - 4 years</li>
                         <li>C# / .Net - 4 years</li>
+                        <li>node.js - 3 years</li>
                     </ul>
                 </div>
 
                 <div className={styles.block}>
                     <h4>Frontend</h4>
                     <ul>
-                        <li>HTML, CSS, Javascript - 10 years</li>
+                        <li>HTML, CSS, Javascript - 8 years</li>
                         <li>Single page applications - 7 years</li>
                         <li>Angular - 6 years</li>
                         <li>React - 3 years</li>
@@ -55,18 +55,18 @@ const ProfilePage = () => (
 
                 <small><em>
                     *These are just the most important ones, there is much more.
-                    Also I very much believe that an experienced developer is able to transfer skills between languages,
-                    technologies, frameworks or libraries.
+                    I also believe that an experienced developer is able to transfer skills and can adapt to
+                    new languages, frameworks or libraries.
                 </em></small>
             </section>
 
             <section>
                 <SubTitle title='How would I describe my professional self?'/>
                 <ul>
-                    <li>able to work reliably and independently</li>
-                    <li>critical thinking, validation of requirements and decisions</li>
-                    <li>logical thinking</li>
-                    <li>thinking beyond technical aspects with focus on quality, usability, performance</li>
+                    <li>self-organizing, reliable</li>
+                    <li>good communicator</li>
+                    <li>logical thinking, critical thinking</li>
+                    <li>focus on quality, usability, performance</li>
                     <li>can find practical solutions in short amount of time</li>
                     <li>good didactic skills</li>
                     <li>curious and interested in new technologies and developments in software engineering</li>
